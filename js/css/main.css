@@ -352,3 +352,22 @@ a.param:hover {
 		height: 20px;
 	}
 }
+
+/*Solucion  para centrar los escenarios 
+#scene-container {
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+canvas {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+		*/

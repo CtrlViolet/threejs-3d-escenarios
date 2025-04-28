@@ -10,6 +10,8 @@ const manager = new THREE.LoadingManager();
 
 let camera, scene, renderer, stats, object, loader, guiMorphsFolder;
 let mixer;
+const container = document.getElementById("scene-container");
+container.appendChild(renderer.domElement);
 
 const clock = new THREE.Clock();
 
